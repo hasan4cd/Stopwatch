@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: linear-gradient(135deg, #c2e9fb, #a1c4fd);
+}
+
+#box {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    border-radius: 25px;
+}
+
+#box:hover {
+    box-shadow: 
+    0px -15px 30px aqua
+    ,0px 15px 30px dodgerblue;
+}
+
+h1 {
+    color: dodgerblue;
+    font-size: 60px;
+}
+
+#show {
+    font-size: 60px;
+    color: blue;
+}
+
+.one {
+    height: 60px;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+    background-color: greenyellow;
+    color: green;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.one:hover {
+    cursor: pointer;
+    background-color: green;
+    color: greenyellow;
+}
+
+.two {
+    height: 60px;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff6b6b;
+    color: red;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.two:hover {
+    cursor: pointer;
+    background-color: red;
+    color: #ff6b6b;
+}
+
+.three {
+    height: 60px;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+    background-color: #cd853f;
+    color: brown;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.three:hover {
+    cursor: pointer;
+    background-color: brown;
+    color: #cd853f;
+}
+
+@media (max-width: 560px) {
+    #box {
+        height: 400px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background: linear-gradient(135deg, #89f7fe, #66a6ff);
+        border-radius: 25px;
+    }
+}
+
+@media (max-width: 510px) {
+    #box {
+        height: 400px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background: linear-gradient(135deg, #89f7fe, #66a6ff);
+        border-radius: 25px;
+    }
+
+    .one {
+        height: 60px;
+        width: 100px;
+        border-radius: 10px;
+        border: none;
+        background-color: greenyellow;
+        color: green;
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+    .two {
+        height: 60px;
+        width: 100px;
+        border-radius: 10px;
+        border: none;
+        background-color: #ff6b6b;
+        color: red;
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+    .three {
+        height: 60px;
+        width: 100px;
+        border-radius: 10px;
+        border: none;
+        background-color: #cd853f;
+        color: brown;
+        font-size: 27px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 460px) {
+    #box {
+        height: 500px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background: linear-gradient(135deg, #89f7fe, #66a6ff);
+        border-radius: 25px;
+    }
+
+    #box:hover {
+    box-shadow: 
+    0px -15px 20px aqua
+    ,0px 15px 20px dodgerblue;
+    }
+
+    h1 {
+        color: dodgerblue;
+        font-size: 50px;
+    }
+
+    #show {
+        font-size: 55px;
+        color: blue;
+    }
+
+    #set {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 200px;
+    }
+
+    .one {
+        height: 60px;
+        width: 300px;
+        border-radius: 10px;
+        border: none;
+        background-color: greenyellow;
+        color: green;
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+    .two {
+        height: 60px;
+        width: 300px;
+        border-radius: 10px;
+        border: none;
+        background-color: #ff6b6b;
+        color: red;
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+    .three {
+        height: 60px;
+        width: 300px;
+        border-radius: 10px;
+        border: none;
+        background-color: #cd853f;
+        color: brown;
+        font-size: 27px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 397px) {
+    #box {
+        height: 500px;
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background: linear-gradient(135deg, #89f7fe, #66a6ff);
+        border-radius: 25px;
+    }
+
+    #box:hover {
+    box-shadow: 
+    0px -15px 20px aqua
+    ,0px 15px 20px dodgerblue;
+    }
+
+    h1 {
+        color: dodgerblue;
+        font-size: 50px;
+    }
+
+    #show {
+        font-size: 50px;
+        color: blue;
+    }
+
+    #set {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 200px;
+    }
+
+    .one {
+        height: 60px;
+        width: 270px;
+        border-radius: 10px;
+        border: none;
+        background-color: greenyellow;
+        color: green;
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+    .two {
+        height: 60px;
+        width: 270px;
+        border-radius: 10px;
+        border: none;
+        background-color: #ff6b6b;
+        color: red;
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+    .three {
+        height: 60px;
+        width: 270px;
+        border-radius: 10px;
+        border: none;
+        background-color: #cd853f;
+        color: brown;
+        font-size: 27px;
+        font-weight: 600;
+    }
+}
