@@ -35,7 +35,7 @@ h1 {
 }
 
 #show {
-    font-size: 60px;
+    font-size: 57px;
     color: blue;
 }
 
@@ -101,6 +101,11 @@ h1 {
         background: linear-gradient(135deg, #89f7fe, #66a6ff);
         border-radius: 25px;
     }
+
+    #show {
+        font-size: 57px;
+        color: blue;
+    }
 }
 
 @media (max-width: 510px) {
@@ -113,6 +118,11 @@ h1 {
         justify-content: space-evenly;
         background: linear-gradient(135deg, #89f7fe, #66a6ff);
         border-radius: 25px;
+    }
+
+    #show {
+        font-size: 45px;
+        color: blue;
     }
 
     .one {
@@ -173,7 +183,7 @@ h1 {
     }
 
     #show {
-        font-size: 55px;
+        font-size: 43px;
         color: blue;
     }
 
@@ -243,7 +253,7 @@ h1 {
     }
 
     #show {
-        font-size: 50px;
+        font-size: 40px;
         color: blue;
     }
 
