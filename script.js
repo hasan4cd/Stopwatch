@@ -8,7 +8,7 @@ function start() {
     if (timer !== null) {
         return;
     }
-    timer = setInterval(run, 8);
+    timer = setInterval(run, 10);
 }
 
 function run() {
